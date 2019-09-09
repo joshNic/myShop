@@ -7,9 +7,9 @@ import ReduxThunk from 'redux-thunk';
 
 import productsReducer from './store/reducers/products';
 import cartReducer from './store/reducers/cart';
-import ShopNavigator from './navigation/ShopNavigator';
-import authReducer from './store/reducers/auth';
 import ordersReducer from './store/reducers/orders';
+import authReducer from './store/reducers/auth';
+import ShopNavigator from './navigation/ShopNavigator';
 
 const rootReducer = combineReducers({
   products: productsReducer,
